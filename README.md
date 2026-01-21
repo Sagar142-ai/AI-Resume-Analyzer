@@ -20,8 +20,8 @@ This project is an AI-based Resume Analyzer built using Python and Flask.
    pip install flask PyPDF2
 
 2. Run the application:
-   python app.py## Presentation
-Project presentation (PPT) is included in this repository.
+   python app.py
+
 
    
 
@@ -31,3 +31,7 @@ Project presentation (PPT) is included in this repository.
 ## Future Scope
 - AWS S3 cloud integration
 - Machine learning based resume ranking
+  
+  - ## Presentation
+Project presentation (PPT) is included in this repository.
+
