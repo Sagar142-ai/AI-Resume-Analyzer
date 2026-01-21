@@ -20,9 +20,12 @@ This project is an AI-based Resume Analyzer built using Python and Flask.
    pip install flask PyPDF2
 
 2. Run the application:
-   python app.py
+   python app.py## Presentation
+Project presentation (PPT) is included in this repository.
 
-3. Open browser:
+   
+
+4. Open browser:
    http://127.0.0.1:5000
 
 ## Future Scope
