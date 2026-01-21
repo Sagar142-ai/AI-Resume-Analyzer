@@ -32,6 +32,6 @@ This project is an AI-based Resume Analyzer built using Python and Flask.
 - AWS S3 cloud integration
 - Machine learning based resume ranking
   
-  - ## Presentation
+## Presentation
 Project presentation (PPT) is included in this repository.
 
