@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Interview Questions</title>
+
+    <!-- CSS LINK (VERY IMPORTANT) -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h2>Interview Questions</h2>
+
+    <form action="/submit_answers" method="post">
+        {% for q in questions %}
+            <label>{{ q }}</label>
+            <textarea name="{{ q }}" rows="4" placeholder="Type your answer here..." required></textarea>
+        {% endfor %}
+
+        <button type="submit">Submit Answers</button>
+    </form>
+
+    <div class="footer-note">
+        Answer honestly to get better AI feedback
+    </div>
+</div>
+
+</body>
+</html>

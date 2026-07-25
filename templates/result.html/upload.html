@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>AI Interview Preparation System</title>
+
+    <!-- CSS LINK (VERY IMPORTANT) -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+
+<div class="container">
+    <h2>AI Interview Preparation System</h2>
+
+    <form action="/upload" method="post" enctype="multipart/form-data">
+        <label for="role">Job Role</label>
+        <input type="text" id="role" name="role" placeholder="Eg: Python Developer" required>
+
+        <label for="resume">Upload Resume (PDF)</label>
+        <input type="file" id="resume" name="resume" accept=".pdf" required>
+
+        <button type="submit">Start Interview</button>
+    </form>
+
+    <div class="footer-note">
+        Powered by AI • Student Project
+    </div>
+</div>
+
+</body>
+</html>
